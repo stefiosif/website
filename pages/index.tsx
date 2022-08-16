@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     {
       title: "covid-article-search-engine",
       desc: "Information retrieval system built with Lucene and JavaFX.",
-      url: "/lucene_project"
+      url: "https://github.com/stefiosif/covid-article-search-engine"
     }
   )
 
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
     {
       title: "text-to-speech-editor",
       desc: "Text-to-speech (TTS) application built with Java Swing.",
-      url: "/tts_project"
+      url: "https://github.com/stefiosif/text-to-speech-editor"
     }
   )
 
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
     {
       title: "rtree",
       desc: "R-Tree bulk loading using Morton space filling curve. Range and kNN queries.",
-      url: "/rtree_project"
+      url: "https://github.com/stefiosif/rtree"
     }
   )
 
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
     {
       title: "dynamic-reachability-algorithms",
       desc: "Implementation of dynamic reachability algorithms by Roditty and Zwick.",
-      url: "/thesis_project"
+      url: "/"
     }
   )
 
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
     {
       title: "main-memory-quadtree",
       desc: "Experimentation with a 2d spatial index and modern main memory capacity.",
-      url: "/mmqt_project"
+      url: "https://github.com/stefiosif/main-memory-quadtree"
     }
   )
 
@@ -64,12 +64,14 @@ const Home: NextPage = () => {
 
   return(
     <div>
-      <div className="text-slate-600 flex flex-col gap-6">
+      <div className="text-slate-600 flex flex-col gap-1">
         <AboutMe />
-        <div className="text-xl font-bold text-slate-800">Completed projects</div>
-        <div className="flex flex-col gap-4">{doneProjectPreviewElements}</div>
-        <div className="text-xl font-bold text-slate-800">Currently working on</div>
-        <div className="flex flex-col gap-4">{currentProjectPreviewElements}</div>
+        <br/>
+        <div className="text-xl font-bold text-slate-800">Projects</div>
+        <div className="flex flex-col gap-2">{doneProjectPreviewElements}</div>
+        <br/>
+        <div className="text-xl font-bold text-slate-800">Under construction</div>
+        <div className="flex flex-col gap-2">{currentProjectPreviewElements}</div>
       </div>
     </div>
   );
