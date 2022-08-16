@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div className="text-center border-t border-slate-300 p-4 text-slate-600">
-        <div>Built with Next.js and Tailwind CSS.<br/>Hosted by Github.</div>
+        <div>Built with Next.js and Tailwind CSS.<br/>Hosted by Vercel.</div>
         <div className="text-3xl text-slate-300 flex inline-flex gap-4">
           <Link href={"https://github.com/stefiosif"}>
             <a className="hover:text-indigo-500">
