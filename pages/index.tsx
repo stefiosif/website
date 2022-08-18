@@ -67,7 +67,7 @@ const Home: NextPage = () => {
       <div className="text-slate-600 flex flex-col gap-1">
         <AboutMe />
         <br/>
-        <div className="text-xl font-bold text-slate-800">Projects</div>
+        <div className="text-xl font-bold text-slate-800">Repositories</div>
         <div className="flex flex-col gap-2">{doneProjectPreviewElements}</div>
         <br/>
         <div className="text-xl font-bold text-slate-800">Under construction</div>
